@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-RAW_DATA_PATH = os.path.join(BASE_DIR, '../fraud_detection_raw/card_transdata.csv')
+RAW_DATA_PATH = os.path.join(BASE_DIR, '../credit_card_fraud_data_raw/card_transdata.csv')
 OUTPUT_DIR = os.path.join(BASE_DIR, 'fraud_detection_preprocessing')
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, 'clean_card_transdata.csv')
 
