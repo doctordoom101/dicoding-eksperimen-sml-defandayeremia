@@ -33,7 +33,7 @@ jobs:
     # 4. Jalankan Script Otomatisasi
     - name: Run Preprocessing Script
       run: |
-        python preprocessing/automate_[Nama-Anda].py
+        python preprocessing/automate_defanda-yeremia.py
 
     # 5. Commit dan Push data hasil proses kembali ke GitHub
     - name: Commit and Push changes
